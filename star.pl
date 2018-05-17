@@ -54,10 +54,10 @@ luminosidade(Vega,50).
 luminosidade(Canopus,10700).
 
 classeO(X):-size(X,Y),(Y>11,Y<100),temperatura(X,Z),(Z=40000),raio(X,Z),(Z=10),massa(X,Z),(Z=50),luminosidade(X,Z),(Z=100000).
-classeB(X):-size(X,Y),(Y>2.1,Y<10),temperatura(X,Z),(Z=20000),raio(X,Z),(Z=5),massa(X,Z),(Z=10),luminosidade(X,Z),(Z=1000).
-classeA(X):-size(X,Y),(Y>1.6,Y<2.0),temperatura(X,Z),(Z=8500),raio(X,Z),(Z=1.7),massa(X,Z),(Z=2.0),luminosidade(X,Z),(Z=20).
-classeF(X):-size(X,Y),(Y>1.4,Y<1.5),temperatura(X,Z),(Z=6500),raio(X,Z),(Z=1.3),massa(X,Z),(Z=1.5),luminosidade(X,Z),(Z=4).	
-classeG(X):-size(X,Y),(Y>0.9,Y<1.0),temperatura(X,Z),(Z=5700),raio(X,Z),(Z=1.0),massa(X,Z),(Z=1.0),luminosidade(X,Z),(Z=1.0).
-classeK(X):-size(X,Y),(Y>0.3,Y<0.7),temperatura(X,Z),(Z=4500),raio(X,Z),(Z=0.8),massa(X,Z),(Z=0.7),luminosidade(X,Z),(Z=0.2).
-classeM(X):-size(X,Y),(Y>0,Y<0.2),temperatura(X,Z),(Z=3200),raio(X,Z),(Z=0.3),massa(X,Z),(Z=0.2),luminosidade(X,Z),(Z=0.01).
+classeB(X):-size(X,Y),(Y>2,1,Y<10),temperatura(X,Z),(Z=20000),raio(X,Z),(Z=5),massa(X,Z),(Z=10),luminosidade(X,Z),(Z=1000).
+classeA(X):-size(X,Y),(Y>1,6,Y<2,0),temperatura(X,Z),(Z=8500),raio(X,Z),(Z=1.7),massa(X,Z),(Z=2.0),luminosidade(X,Z),(Z=20).
+classeF(X):-size(X,Y),(Y>1,4,Y<1,5),temperatura(X,Z),(Z=6500),raio(X,Z),(Z=1.3),massa(X,Z),(Z=1.5),luminosidade(X,Z),(Z=4).	
+classeG(X):-size(X,Y),(Y>0,9,Y<1,0),temperatura(X,Z),(Z=5700),raio(X,Z),(Z=1.0),massa(X,Z),(Z=1.0),luminosidade(X,Z),(Z=1.0).
+classeK(X):-size(X,Y),(Y>0,3,Y<0,7),temperatura(X,Z),(Z=4500),raio(X,Z),(Z=0.8),massa(X,Z),(Z=0.7),luminosidade(X,Z),(Z=0.2).
+classeM(X):-size(X,Y),(Y>0,Y<0,2),temperatura(X,Z),(Z=3200),raio(X,Z),(Z=0.3),massa(X,Z),(Z=0.2),luminosidade(X,Z),(Z=0.01).
 
